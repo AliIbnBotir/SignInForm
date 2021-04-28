@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="background"></div>
+		<div class="container" id="container">
+			<div class="form-container sign-up-container">
+				<img src="./images/logo.svg" alt="" class="logo" />
+				<form action="#">
+					<h1>Create Account</h1>
+					<p>Username</p>
+					<input type="text" placeholder="Username" />
+					<p>Email</p>
+					<input type="email" placeholder="Email" />
+					<p>Password</p>
+					<input type="password" placeholder="Password" />
+					<button>Sign Up</button>
+					<p>
+						Already have an account login
+						<span id="signIn" style="cursor: pointer">here!</span>
+					</p>
+				</form>
+			</div>
+			<div class="form-container sign-in-container">
+				<img src="./images/logo.svg" alt="" class="logo" />
+				<form action="#">
+					<h1>Sign in</h1>
+					<p>Username</p>
+					<input type="email" placeholder="Username" />
+					<p>Password</p>
+					<input type="password" placeholder="Password" />
+					<button>Sign In</button>
+					<p>
+						No account? Register
+						<span id="signUp" style="cursor: pointer">here!</span>
+					</p>
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Join us and become part of the commutnity!</h1>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Glad to see you here again!</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
